@@ -1,0 +1,79 @@
+.part1{
+    height: 600px;
+}
+.part1 .carousel-item{
+    position: relative;
+}
+.part1 .col-8{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.part2{
+    height: 300px;
+}
+.part2 p:hover,.part4 p:hover{
+    color: green;
+}
+.part2 .col-1:hover{
+    border: 1px solid rgba(45, 130, 45, 0.529);
+    box-shadow: 0 0 5px 0 rgb(180, 180, 180);
+}
+.part3{
+    height: 350px;
+}
+.part3 .col-3{
+  transition: 3s;
+}
+.part3 .col-3:hover{
+    transform: scale(1.1);
+}
+.part4{
+    height: 700px;
+}
+.part4 .card .pe1,.part5 .card .pe1{
+    display: none;
+}
+.part4 .card:hover .pe1,.part5 .card:hover .pe1{
+    display: block;
+}
+.part5{
+    height: 700px;
+}
+.part5 .col-3{
+    background-image: url(image/bg4.jpg);
+    background-size: cover;
+}
+.part5 .btn{
+    background-color: green;
+}
+.part5 .btn:hover{
+    background-color: rgb(205, 200, 50);
+}
+.part6{
+    height: 600px;
+}
+.part6 .col-11{
+    transition: 2s;
+}
+.part6 .col-3:hover .col-11{
+    transform: scale(1.1);
+}
+.part8 .container-flide{
+    position: relative;
+} 
+.part8 #p8{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.part9{
+    height: 180px;
+}
+footer{
+    height: 750px;
+}
+footer p:hover{
+    color: green;
+}
